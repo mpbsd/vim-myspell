@@ -57,5 +57,3 @@ function VimAddCurrentWordToTheWordsList() abort
   call writefile([l:cword], expand('~/.vim/spell/words.dict'), 'a')
   echo printf("%s %s %s", 'Added', l:cword, 'to ~/.vim/spell/words.dict')
 endfunction
-
-" vim: set fileencoding=utf8: "
